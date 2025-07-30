@@ -1,0 +1,86 @@
+1 What is the primary function of a router in a computer network?
+Ans  c) Forwarding data packets between networks
+ 
+2 What is the purpose of DNS (Domain Name System) in a computer network?
+Ans  c) Converting domain names to IP addresses 
+
+3. What type of network topology uses a centralized hub or switch to connect all devices?
+a) Star 
+
+4. Which network protocol is commonly used for securely accessing and transferring files over a network?
+Ans SFTP 
+
+5. True or False: A firewall is a hardware or software-based security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+True 
+
+6. True or False: DHCP (Dynamic Host Configuration Protocol) assigns static IP addresses to network devices automatically.
+False 
+
+7. True or False: VLANs (Virtual Local Area Networks) enable network segmentation by dividing a single physical network into multiple logical networks.
+True 
+
+8. Explain the difference between a hub and a switch in a computer network.
+Answer:
+A hub broadcasts data to all devices on a network segment, regardless of the destination. This leads to more collisions and less efficiency.
+A switch sends data only to the specific device it is intended for, using MAC addresses. It reduces collisions and improves performance.
+
+9. Describe the process of troubleshooting network connectivity issues.
+Answer:
+Check physical connections (cables, ports, power).
+Verify IP configuration using ipconfig (Windows) or ifconfig/ip a (Linux).
+Ping local and remote devices to check communication.
+Check firewall settings and access control lists.
+Restart networking equipment (modem, router, switch).
+Check for software issues like incorrect drivers or DNS problems.
+Review logs on routers, firewalls, or servers for anomalies.
+
+10. Demonstrate how to configure a wireless router's security settings to enhance network security.
+Answer:
+Log into the router’s admin panel (usually via a browser like 192.168.1.1).
+Change the default username and password.
+Enable WPA3 (or WPA2 if WPA3 is not available) for encryption.
+Set a strong SSID and password.
+Disable WPS (Wi-Fi Protected Setup) to prevent brute-force attacks.
+Enable MAC address filtering (optional for advanced control).
+Update router firmware regularly.
+Disable remote management unless needed.
+
+11. Discuss the importance of network documentation and provide examples of information that should be documented.
+Answer:
+Importance of Network Documentation
+
+Network documentation is the process of recording detailed information about a computer network's structure, configuration, and operation. It is a critical part of effective network management and offers numerous benefits:
+
+ Why Network Documentation Is Important:
+
+1. Simplifies Troubleshooting
+   When network issues arise, accurate documentation helps technicians quickly pinpoint the source of the problem.
+
+2. Ensures Continuity
+   If key IT personnel leave or are unavailable, others can still manage and maintain the network using existing documentation.
+
+3. Aids in Planning and Expansion
+   Clear records of the current setup help in planning upgrades, expansions, or migrations without disrupting existing services.
+
+4. Supports Security and Compliance
+   Proper documentation ensures that security configurations and access controls are consistently followed and can be audited.
+
+5. Improves Efficiency
+   Saves time and reduces guesswork when configuring new devices or making changes to the network.
+
+6. Facilitates Disaster Recovery
+   In case of system failures or cyberattacks, documented backup and recovery procedures help restore services more quickly.
+Examples of Information That Should Be Documented
+
+To be useful, network documentation should include the following types of information:
+
+Category                   Examples                                                    
+Network Topology: Diagrams showing routers, switches, firewalls, access points, and servers.   
+IP Addressing: iP addresses, subnet masks, DHCP scope details, and VLAN configurations.  
+Device Inventory:List of all network devices (e.g., model, serial number, location, firmware). 
+Configuration Files: Backup copies of router, switch, and firewall configurations.                 
+Login Credentials:Securely stored admin usernames and passwords for devices and systems.       
+Access Control : Permissions, user roles, and network access policies.                         
+|Service Details : Info on DNS, DHCP, VPN, file servers, and internet services.                  Change Logs :  Records of changes made to network hardware, software, or settings.          
+Maintenance Schedules : Routine maintenance tasks and schedules for updates and checks.               
+Vendor Contacts : Support info, warranty details, and contact numbers for hardware vendors.
